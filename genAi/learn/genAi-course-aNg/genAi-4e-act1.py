@@ -2,6 +2,7 @@ print("Hello, World")
 import openai
 import os
 
+# adding comments 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def llm_response(prompt):
